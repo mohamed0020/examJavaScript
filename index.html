@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam2</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="bg-danger h-100 position-fixed d-flex">
+        <div class="inner bg-black h-100  d-flex flex-column justify-content-between">
+            <ul class="list-unstyled text-white mt-4 ms-4 fw-lighter">
+                <li id="searchBtn">Search</li>
+                <li id="CategoriesBtn">Categories</li>
+                <li id="areaBtn">Area</li>
+                <li id="ingredientsBtn">Ingredients</li>
+                <li id="contactBtn">Contact Us</li>
+            </ul>
+            <div class="footer">
+                <i class="fa-brands fa-facebook ms-4 me-1"></i>
+                <i class="fa-brands fa-twitter me-1"></i>
+                <i class="fa-solid fa-globe me-1"></i>
+                <p class="text-muted w-75 mx-auto">Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="outer h-100  bg-white d-flex flex-column justify-content-between align-items-center py-3">
+            <img class="w-50" src="logo (1).png" alt="">
+            <i style="cursor: pointer;" class="fa-solid fa-bars fa-2x" id="openingBtn"></i>
+            
+            <div>
+                
+                <i class="fa-solid fa-globe d-block mb-1"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </aside>
+    <section id="loading">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+          </div>
+    </section>
+    <section id="ingredients" class="bg-dark vh-100 ps-5 w-100 d-none">
+        <div class="container">
+            <div class="row" id="rowDataIngredients">
+                    
+            </div>
+        </div>
+    </section>
+    <section id="categories" class="bg-dark py-5 ">
+        <div class="container w-75">
+            <div class="row g-4 " id="rowDataCategory">
+                
+            </div>
+        </div>
+    </section>
+    <section id="area" class="bg-dark vh-100 text-white ">
+        <div class="container">
+            <div class="row" id="rowDataArea">
+                
+            </div>
+        </div>
+    </section>
+    <section id="contact" class=" bg-black vh-100 text-center " >
+
+        <h2 class="text-white text-center mt-5">ContacUs...</h2>
+
+        <div class="d-flex w-75 justify-content-center mx-auto contact1">
+    
+          <div class="form ">
+            <div class="form1 w-100 p-2">
+              <input type="text " class=" form-control text-center " placeholder="Enter Your Name ">
+            </div>
+            <div class="form1 w-100 p-2">
+              <input type="text " class=" form-control text-center " placeholder="Enter Your Name ">
+            </div>
+            <div class="form1 w-100 p-2">
+              <input type="text " class=" form-control text-center " placeholder="Enter Your Name ">
+            </div>
+          </div>
+    
+          <div class="form ">
+            <div class="form1 w-100 p-2">
+              <input type="text " class=" form-control text-center " placeholder="Enter Your Name ">
+            </div>
+            <div class="form1 w-100 p-2">
+              <input type="text " class=" form-control text-center " placeholder="Enter Your Name ">
+            </div>
+            <div class="form1 w-100 p-2">
+              <input type="text " class=" form-control text-center " placeholder="Enter Your Name ">
+            </div>
+          </div>
+    
+        </div>
+    
+        <button class="btn btn-outline-danger mt-3">Submit</button>
+    </section>
+    
+    <section id="search" class="justify-content-center vh-100 text-center pt-5 ">
+        <div id="searchByName" class="d-inline me-4">
+            <input class="form-control " type="text" name="name" id="" placeholder="Search By Name">
+            
+        </div>
+        <div id="searchByFirstLetter" class="d-inline">
+            <input class="form-control" type="text" name="name" id="" placeholder="Search By Name">
+        </div>
+</section>
+    <header class="py-5 ">
+        
+        <div class="container my-5 ">
+            <div class="row g-md-4" id="rowDataHeader">
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="beef.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>beef</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="breakfast.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>breakfast</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="chicken.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>chicken</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="dessert.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>dessert</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="goat.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>goat</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="lamb.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>lamb</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="miscellaneous.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>miscellaneous</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="pasta.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>pasta</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="pork.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>pork</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="seafood.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>seaFood</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="side.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>side</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="starter.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>starter</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="vegan.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>vegan</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="vegetarian.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>vegetarian</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 position-relative overflow-hidden">
+                    <img class="w-100 overflow-hidden" src="breakfast.png" alt="">
+                    <div class="overlay position-absolute text-center">
+                        <h3>breakfast</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
